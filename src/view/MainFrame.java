@@ -105,7 +105,7 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         frameDimension = new Dimension((int)(size.getWidth() * REDUCTION),
-                (int)(size.getHeight() * REDUCTION) + 22);
+                (int)(size.getHeight() * 0.833));
         setSize(new Dimension((int)(frameDimension.getWidth()),
                 (int)frameDimension.getHeight()));
         dynamicPanel = new HomePanel();
